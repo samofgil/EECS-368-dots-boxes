@@ -1,0 +1,30 @@
+.title
+{
+    text-align: center;
+}
+
+body
+{
+    background-color: #9fe2bf;
+}
+
+#board
+{
+    display:block;
+    margin: 50px auto;
+    background-color: pink;
+}
+
+#button
+{
+    display:block;
+    margin:auto;
+    width:100px;
+    background-color:black;
+    color:white;
+}
+
+#scoreBoard
+{
+    text-align: center;
+}
