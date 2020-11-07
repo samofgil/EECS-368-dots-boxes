@@ -3,6 +3,7 @@ btn.addEventListener("click",() => {
   newgame();
 })
 
+//Referenced from Gomoku project
 function newgame()
 {
     for(let i=0;i<10;i++)

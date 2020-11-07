@@ -13,6 +13,8 @@ context.strokeStyle="black";
 document.addEventListener("DOMContentLoaded", () => {
     drawline();
 })
+
+//Referenced from Gomoku project
 function drawline()
 {
     for(let i=0;i<5;i++)
