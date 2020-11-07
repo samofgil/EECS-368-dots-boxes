@@ -11,7 +11,7 @@ each 2x2 box. A player goes an extra turn whenever they score. Game ends and win
 
 
 IMPORTANT:
-Some functions were referenced from my previous Gomoku group project from EECS 448 (taken this semester), and they are pre-commented as such in the files. These functions are "drawDots" (used to draw the dots on screen instead of using images), "drawline" (used to draw lines on the board), "newgame" (used to reset the field array), the click event listener (used to accurately place the dots on the board based on the mouse's position), and some of the score tracking implementation in scoreboard.js, which uses arrays to keep track of the separate scores for the two players. All other code is newly written by me for this project. 
+Some implementation is referenced from my previous Gomoku group project from EECS 448 (taken this semester), and these sections are pre-commented as such in the files. These functions are "drawDots" (used to draw the dots on screen instead of using images), "drawline" (used to draw lines on the board), the click event listener (used to accurately place the dots on the board based on the mouse's position), and some of the score tracking implementation in scoreboard.js, which uses array functionality to keep track of the separate scores for the two players. All other code is newly written by me for this project. 
 
 Samuel Gilchrist, 2886577
 KU EECS 448
