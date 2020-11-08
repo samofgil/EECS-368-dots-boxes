@@ -57,9 +57,9 @@ board.addEventListener('click', (a) => {
         checkWin();
         turn++;
         console.log("Turn " + turn + " of 100 (" + teamcolor[((turn+scoreMod)-1)%2] + ")");
-        if (turn==100)
+        /**if (turn==100)
         {
           checkWinFull();
-        }
+        }**/
     }
 })

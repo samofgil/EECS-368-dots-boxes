@@ -22,7 +22,7 @@ function checkWin()
 	—TIE
 	—BLUE
 	—RED
-**/
+
 function checkWinFull()
 {
     	//
@@ -43,3 +43,4 @@ function checkWinFull()
       alert("It's a tie! Click 'New Game' if you want to play again. " );
     }
 }
+**/
