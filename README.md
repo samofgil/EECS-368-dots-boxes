@@ -1,8 +1,12 @@
 # EECS-368-dots-boxes
-EECS 368 js project, Sam Gilchrist
+EECS 368 js project, Sam Gilchrist 
+
+***
+12-4-2020: NOW UPDATED FOR PROJECT 2 SUBMISSION 
+***
+
 
 Dots and Boxes:
-
 
 
 HOW TO PLAY: 
