@@ -2,7 +2,7 @@
 EECS 368 js project, Sam Gilchrist 
 
 ***
-12-4-2020: NOW UPDATED FOR PROJECT 2 SUBMISSION: Changed from 5x5 to 2x2 board, patched some glitches, and changed the visuals a little.
+12-4-2020: NOW UPDATED FOR PROJECT 2 SUBMISSION: Changed from 5x5 to 2x2 board, patched some glitches, and updated the visuals a little.
 See Project-1 branch for original submission
 ***
 
