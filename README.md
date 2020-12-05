@@ -10,8 +10,7 @@ Dots and Boxes:
 
 
 HOW TO PLAY: 
-Players alternate placing dots through clicking on a 5x5 board of 2x2 boxes, attempting to score by placing the last dot in 
-each 2x2 box. A player goes an extra turn whenever they score. Game ends and winner is determined when a player reaches a match score of 13.
+Players alternate placing dots on a 2x2 board made up of 2x2 boxes, attempting to score by placing the last dot in each box. A player goes an extra turn whenever they score. Game ends when a player wins by reaching a match score higher than 2 or when all dots are placed.
 
 
 IMPORTANT:
