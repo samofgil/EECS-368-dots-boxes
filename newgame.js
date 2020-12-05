@@ -16,6 +16,7 @@ function newgame()
     drawline();
     cleanScore();
     turn=0;
+    winTick=0;
     console.log("New Game");
 }
 

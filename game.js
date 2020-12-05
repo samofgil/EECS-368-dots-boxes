@@ -46,14 +46,14 @@ function drawDots (x,y,color)
 
 //Referenced from Gomoku project
 board.addEventListener('click', (a) => {
-    let xDist=Math.floor((a.offsetX)/30)*30+15;
-    let yDist=Math.floor((a.offsetY)/30)*30+15;
+    let xDist=Math.floor((a.offsetX)/75)*75+37.5;
+    let yDist=Math.floor((a.offsetY)/75)*75+37.5;
 
-    if(field[(xDist-15)/30][(yDist-15)/30]==0 )//0
+    if(field[(xDist-37.5)/75][(yDist-37.5)/75]==0 )//0
     {
         drawDots(xDist,yDist,teamcolor[(turn+scoreMod)%2]);
-        field[(xDist-15)/30][(yDist-15)/30]=teamcolor[turn%2];
-        checkScore(teamcolor[(turn+scoreMod)%2], (xDist-15)/30, (yDist-15)/30);
+        field[(xDist-37.5)/75][(yDist-37.5)/75]=teamcolor[turn%2];
+        checkScore(teamcolor[(turn+scoreMod)%2], (xDist-37.5)/75, (yDist-37.5)/75);
         checkWin();
         turn++;
         console.log("Turn " + turn + " of 100 (" + teamcolor[((turn+scoreMod)-1)%2] + ")");

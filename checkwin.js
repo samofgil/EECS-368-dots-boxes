@@ -5,15 +5,17 @@
 **/
 function checkWin()
 {
-  if (score[1]>2)
+  if (score[1]>2 && winTick==0)
   {
     alert("Red Team wins! Click 'New Game' if you want to play again. ");
     updateWin("red");
+    winTick=1;
   }
-  else if (score[0]>2)
+  else if (score[0]>2 && winTick==0)
   {
     alert("Blue Team wins! Click 'New Game' if you want to play again. " );
     updateWin("blue");
+    winTick=1;
   }
   else if (score[0]>1 && score[0]==score[1])
   {
