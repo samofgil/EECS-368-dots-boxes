@@ -1,8 +1,8 @@
 let field=[];
- for(let i=0;i<15;i++)
+ for(let i=0;i<4;i++)
  {
     field[i]=[];
-    for(let j=0;j<15;j++)
+    for(let j=0;j<4;j++)
     {
         field[i][j]=0;
     }
@@ -17,14 +17,14 @@ document.addEventListener("DOMContentLoaded", () => {
 //Referenced from Gomoku project
 function drawline()
 {
-    for(let i=0;i<5;i++)
+    for(let i=0;i<3;i++)
     {
         context.beginPath();
-        context.moveTo(i*60,0);
-        context.lineTo(i*60,300);
+        context.moveTo(i*150,0);
+        context.lineTo(i*150,300);
         context.stroke();
-        context.moveTo(0, i*60);
-        context.lineTo(300, i*60);
+        context.moveTo(0, i*150);
+        context.lineTo(300, i*150);
         context.stroke();
     }
 }
@@ -37,7 +37,7 @@ let teamcolor=['navy','red'];
 function drawDots (x,y,color)
 {
     context.beginPath();
-    context.arc(x,y,10,0,2 * Math.PI);
+    context.arc(x,y,25,0,2 * Math.PI);
     context.closePath();
     context.fillStyle = color;
     context.fill();
