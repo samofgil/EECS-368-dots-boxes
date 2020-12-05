@@ -1,5 +1,6 @@
 let score = [0, 0];
 let scoreWin = [0, 0];
+let winTick = 0;
 
 //Referenced from Gomoku project
 function updateScore(color)

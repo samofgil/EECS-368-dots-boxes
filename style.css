@@ -3,9 +3,17 @@
     text-align: center;
 }
 
+div
+{
+  font-style: normal;
+}
+
 body
 {
-    background-color: #9fe2bf;
+    background-color: lightblue;
+    text-align: center;
+    font-style: italic;
+    font-family: Helvetica;
 }
 
 #board
